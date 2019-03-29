@@ -1,0 +1,4 @@
+apt update && apt upgrade -y
+apt-get install nodejs -y
+npm install --save readline colors fs request
+node admin.ts
