@@ -33,7 +33,6 @@ g.on("line", (line) => {
 req(`${url}` + "/" + `${line}`, function(error, response, body){
 	if (response.statusCode == 200){
 		console.log(`${url}` + "/" + `${line}` + c.green(" [+] Login Found !"));
-		x();
 	}else{ 
 		console.log(`${url}` + "/" + `${line}` + c.red(" [-] Not Found"));
 	}
