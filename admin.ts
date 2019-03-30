@@ -2,8 +2,6 @@ var c = require("colors");
 var req = require("request");
 var f = require("fs");
 var r = require("readline");
-var sh = require("shelljs");
-var x = require("exit");
 
 console.log(c.rainbow("┏━┃┏━ ┏┏ ┛┏━   ┏━┛┏━┛┏━┃┏━┃┏━┛┃ ┃"));
 console.log(c.rainbow("┏━┃┃ ┃┃┃┃┃┃ ┃  ━━┃┏━┛┏━┃┏┏┛┃  ┏━┃"));
